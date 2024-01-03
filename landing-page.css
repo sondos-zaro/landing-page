@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    width: 45vw;
+    justify-content: space-between;
+}
+
+header {
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #d1603e;
+    color: aliceblue;
+}
+
+.background {
+    background-image: url('https://www.bibalex.org/SCIplanet/Attachments/Article/MediumImage/TKcWzpXYQ3_20170518143103137.jpg');
+    height: 15em;
+    text-align: center;
+    /* line-height: 50px; */
+      /* display: flex;
+    align-items: center;
+    justify-content: center */
+}
+
+.background h1 {
+    color: #d1603e;
+}
+
+.background p {
+    color: aliceblue;
+}
+
+.about-us-container{
+    text-align: center;  
+}

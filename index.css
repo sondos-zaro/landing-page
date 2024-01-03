@@ -1,0 +1,102 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    color: #363830;
+}
+
+body {
+    background-color: #C8CCCF;
+    font-family: 'Poppins';
+}
+
+.first-container {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    
+}
+
+.paragraph {
+    position: absolute;
+    left: 300px;
+    top: 30px;
+    z-index: 99;
+}
+
+.paragraph h1 {
+    width: 756px;
+    height: 104px;
+    font-size: 88px;
+    line-height: 104px;
+    font-weight: bold;
+}
+
+.paragraph p {
+    width: 630px;
+    height: 108px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.paragraph button {
+    margin-top: 10px;
+    width: 170px;
+    height: 60px;
+    font-size: 24px;
+    color: #C8CCCF;
+    background: #363830;
+    border-radius: 36px;
+}
+.mirror-design{
+    position: absolute;
+    left: 842px;
+}
+
+.mirror-design img {
+    height: 400px;
+    width: 900px;
+    
+}
+
+.second-container {
+    display: flex;
+    width: 948px;
+    height: 272px;
+    gap: 8px;
+}
+
+.list-container {
+    display: flex;
+    position: absolute;
+    left: 485px;
+    top: 440px;    
+    padding: 40px 70px;
+    gap: 80px;
+    background: linear-gradient(95.95deg, rgba(255, 255, 255, 0.3) 6.59%, rgba(255, 255, 255, 0.18) 96.07%);
+    backdrop-filter: blur(12px);
+    border-radius: 144px;
+}
+
+.list-container div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 204px;
+    height: 192px;
+
+}
+.vase-img img{
+    position: absolute;
+    left: 100px;
+    top: 350px;  
+    width: 760px;
+    height: 386px;
+}
+hr {
+    background-color: #363830;
+    width: 30px;
+    height: 3px;
+}
