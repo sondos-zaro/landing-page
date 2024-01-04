@@ -7,6 +7,7 @@
 body {
     background-color: #C8CCCF;
     font-family: 'Poppins';
+    overflow: hidden;
 }
 
 .first-container {
@@ -55,7 +56,7 @@ body {
 
 .mirror-design img {
     height: 400px;
-    width: 900px;
+    width: 560px;
     
 }
 
@@ -92,7 +93,7 @@ body {
     position: absolute;
     left: 100px;
     top: 350px;  
-    width: 760px;
+    width: 470px;
     height: 386px;
 }
 hr {
